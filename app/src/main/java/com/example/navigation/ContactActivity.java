@@ -21,8 +21,10 @@ public class ContactActivity  extends AppCompatActivity {
         setContentView(view);
         binding.Accueil.setOnClickListener(v -> {
             Intent i =new Intent(ContactActivity.this, Navigation.class);
+            i.putExtra("nom", binding.editmessage.getText().toString());
             startActivity(i);
         });
         setTitle("Contact");
+
     }
 }

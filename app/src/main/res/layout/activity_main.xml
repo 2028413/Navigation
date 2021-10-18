@@ -6,7 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".Navigation"
     android:orientation="vertical">
-
+    <TextView
+        android:id="@+id/txtaffichage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <NumberPicker
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
     <Button
         android:id="@+id/Article"
         android:layout_width="wrap_content"

@@ -3,4 +3,7 @@
     <string name="button_accueil">Accueil</string>
     <string name="main_button_contact">Contact</string>
     <string name="main_button_article">Article</string>
+    <string name="article_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum erat nulla, in molestie leo laoreet vel. Sed mi velit, auctor tincidunt augue at, tristique mollis magna. Integer mollis faucibus congue. Suspendisse iaculis sit amet nisl sed molestie. Vivamus aliquam sem vel suscipit pellentesque. Ut a rhoncus sapien. Vestibulum auctor purus accumsan interdum ullamcorper. Nam ac ligula id metus tincidunt imperdiet. Nam lobortis, mi condimentum tincidunt convallis, risus massa rhoncus arcu, sed tincidunt magna justo in urna. Aliquam facilisis, sapien et consectetur aliquam, odio libero tincidunt leo,</string>
+    <string name="main_bonjour">Bonjour</string>
+    <string name="contact_nom">Nom</string>
 </resources>

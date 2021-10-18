@@ -3,10 +3,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <Button
         android:id="@+id/Accueil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_accueil"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <TextView
+        android:id="@+id/Nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_nom"
+        android:height="14dp"
         tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/editmessage"
+        android:height="45dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+    </EditText>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

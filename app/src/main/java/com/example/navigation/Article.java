@@ -21,6 +21,7 @@ private ArticleBinding binding;
             Intent i =new Intent(Article.this, ContactActivity.class);
             startActivity(i);
         });
-        setTitle("Article");
+        int nombre = getIntent().getIntExtra("nombre", -1);
+        setTitle("Article #" + nombre );
     }
 }
