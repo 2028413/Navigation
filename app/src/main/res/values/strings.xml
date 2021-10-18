@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Navigation</string>
+    <string name="button_accueil">Accueil</string>
+    <string name="main_button_contact">Contact</string>
+    <string name="main_button_article">Article</string>
+</resources>
